@@ -1,5 +1,6 @@
 =======================================================================================
-Univariate splitting library - using Gaussian Mixture Models to approximate N~(x,0,1)
+Univariate splitting library - using Gaussian Mixture Models to approximate N~(x;0,1)
+The number of GMEs ranges from 3 to 115, only available at odd numbers.
 Each line contains:
 
 Column 1: the number of Gaussian kernels (GMEs) that compose the GMM
@@ -7,7 +8,7 @@ Column 2: the standard deviation of each GME (it is the same for every element)
 Columns 3 through 3+n_gmes-1: the mean of each GME
 Columns 3+n_gmes through 3+2*n_gmes-1: the weight of each GME
 
-Data starts on line 13
+Data starts on line 14
 =======================================================================================
 
 3 0.759835685651593 -0.759835685651593 0 0.759835685651593 0.309117443829632 0.381765112340736 0.309117443829632
